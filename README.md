@@ -11,6 +11,15 @@ The `RACKSYNC HASS INSTALLER` script simplifies the installation of [Home Assist
 
 ## 📋 How to Use
 
+### ⚡ Quick Install
+
+1. Run the following command to download and execute the installer script directly:
+   ```bash
+   curl -sSL https://raw.githubusercontent.com/racksync/hass-installer/main/installer.sh | bash
+   ```
+
+### 🛠️ Manual Install
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/racksync/hass-installer.git
@@ -24,7 +33,7 @@ The `RACKSYNC HASS INSTALLER` script simplifies the installation of [Home Assist
 
 3. Run the installer script:
    ```bash
-   sudo ./installer.sh
+   ./installer.sh
    ```
 
 4. Follow the on-screen prompts to complete the installation.
