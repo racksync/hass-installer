@@ -47,3 +47,9 @@ This script is designed to work on Debian-based systems. Ensure you have a clean
 ## 📄 LICENSE
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📝 TODO
+
+[ ] Change the hostname to `homeassistant.local` during installation.
+[ ] Fetch variants of configuration boilerplate files for Home Assistant.
+
