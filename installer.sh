@@ -21,13 +21,13 @@ echo "        |___/                                                           "
 echo -e "${NC}"
 
 # Information about the script
-echo -e "${YELLOW}Welcome to the RACKSYNC HASS INSTALLER!${NC}"
+echo -e "${YELLOW}🚀 Welcome to the RACKSYNC HASS INSTALLER!${NC}"
 echo -e "${YELLOW}This script makes it easier to install Home Assistant Supervised on Debian.${NC}"
 echo -e "${YELLOW}Benefits include:${NC}"
-echo -e "${YELLOW}- Automated installation of all necessary dependencies.${NC}"
-echo -e "${YELLOW}- Configuration of NetworkManager for better network management.${NC}"
-echo -e "${YELLOW}- Installation of Docker, OS Agent, and Home Assistant Supervised.${NC}"
-echo -e "${YELLOW}- Simplified process with prompts and error handling.${NC}"
+echo -e "${YELLOW}- 🛠️ Automated installation of all necessary dependencies.${NC}"
+echo -e "${YELLOW}- 🌐 Configuration of NetworkManager for better network management.${NC}"
+echo -e "${YELLOW}- 🐳 Installation of Docker, OS Agent, and Home Assistant Supervised.${NC}"
+echo -e "${YELLOW}- 📋 Simplified process with prompts and error handling.${NC}"
 
 # Pause before starting the first process
 pause
