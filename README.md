@@ -45,7 +45,7 @@ The `RACKSYNC HASS INSTALLER` script simplifies the installation of [Home Assist
 This script is designed to work on Debian-based systems. Ensure you have a clean installation of Debian before running the script.
 
 
-## 📝 TODO
+## 🛣️ Roadmap
 
 [ ] Change the hostname to `homeassistant.local` during installation.
 [ ] Fetch variants of configuration boilerplate files for Home Assistant.
