@@ -34,3 +34,9 @@ The RACKSYNC HASS INSTALLER script simplifies the installation of Home Assistant
 ## Note
 
 ⚠️ This script is designed to work on Debian-based systems. Ensure you have a clean installation of Debian before running the script.
+
+## LICENSE
+
+```
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
