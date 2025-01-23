@@ -1,6 +1,6 @@
 # HASS INSTALLER
 
-The RACKSYNC HASS INSTALLER script simplifies the installation of Home Assistant Supervised on Debian. It automates the process of installing necessary dependencies, configuring NetworkManager, and setting up Docker, OS Agent, and Home Assistant Supervised.
+The ```RACKSYNC HASS INSTALLER``` script simplifies the installation of [Home Assistant Supervised](https://github.com/home-assistant/supervised-installer) on Debian. It automates the process of installing necessary dependencies, configuring NetworkManager, and setting up Docker, OS Agent, and Home Assistant Supervised.
 
 ## Benefits
 
