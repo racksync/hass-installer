@@ -21,7 +21,7 @@ echo "        |___/                                                           "
 echo -e "${NC}"
 
 # Information about the script
-echo -e "${YELLOW}🚀 Welcome to the RACKSYNC HASS INSTALLER!${NC}"
+echo -e "${YELLOW}🚀 Welcome to the RACKSYNC HASS INSTALLER v0.1 ${NC}"
 echo -e "${YELLOW}This script makes it easier to install Home Assistant Supervised on Debian.${NC}"
 echo -e "${YELLOW}Benefits include:${NC}"
 echo -e "${YELLOW}- 🛠️ Automated installation of all necessary dependencies.${NC}"
