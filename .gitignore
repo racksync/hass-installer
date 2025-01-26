@@ -1,0 +1,3 @@
+# Ignore all .sh files except installer.sh
+*.sh
+!installer.sh
