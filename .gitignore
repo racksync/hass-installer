@@ -1,6 +1,7 @@
 # Ignore all .sh files except installer.sh
 *.sh
 !installer.sh
+!uninstall.sh
 
 # Ignore macOS system files
 .DS_Store
