@@ -109,7 +109,7 @@ pause
 
 # Install dependencies
 echo -e "${YELLOW}Installing required dependencies...${NC}"
-apt install -y apparmor bluez cifs-utils curl dbus jq libglib2.0-bin lsb-release network-manager nfs-common systemd-journal-remote systemd-resolved udisks2 wget -y
+apt install -y htop nmap apparmor bluez cifs-utils curl dbus jq libglib2.0-bin lsb-release network-manager nfs-common systemd-journal-remote systemd-resolved udisks2 wget -y
 check_error "Failed to install required dependencies"
 echo -e "${GREEN}Dependencies installed successfully.${NC}"
 
