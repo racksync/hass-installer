@@ -90,6 +90,16 @@ select_architecture() {
   esac
 }
 
+# Add hostname change option
+change_hostname() {
+  read -p "Enter the desired hostname (default: homeassistant.local): " new_hostname
+  new_hostname=${new_hostname:-homeassistant.local}
+  echo -e "${YELLOW}Changing hostname to ${new_hostname}...${NC}"
+  hostnamectl set-hostname "$new_hostname"
+  check_error "Failed to change hostname"
+  echo -e "${GREEN}Hostname changed to ${new_hostname} successfully.${NC}"
+}
+
 # Update and upgrade system
 echo -e "${YELLOW}Updating and upgrading the system...${NC}"
 apt update && apt upgrade -y
@@ -139,6 +149,7 @@ pause
 
 # Install OS Agent
 select_architecture
+change_hostname
 echo -e "${YELLOW}Downloading and installing OS Agent for architecture: ${ARCH}...${NC}"
 OS_AGENT_LATEST=$(curl -s https://api.github.com/repos/home-assistant/os-agent/releases/latest | jq -r --arg ARCH "$ARCH" '.assets[] | select(.name | contains($ARCH) and endswith(".deb")) | .browser_download_url')
 if [ -z "$OS_AGENT_LATEST" ]; then
