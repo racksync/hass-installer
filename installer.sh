@@ -29,6 +29,11 @@ echo -e "${YELLOW}- 🌐 Configuration of NetworkManager for better network mana
 echo -e "${YELLOW}- 🐳 Installation of Docker, OS Agent, and Home Assistant Supervised.${NC}"
 echo -e "${YELLOW}- 📋 Simplified process with prompts and error handling.${NC}"
 
+# Define pause function
+pause() {
+  read -p "Press any key to continue..."
+}
+
 # Pause before starting the first process
 pause
 
@@ -38,11 +43,6 @@ check_error() {
     echo -e "${RED}$1${NC}"
     exit 1
   fi
-}
-
-# Define pause function
-pause() {
-  read -p "Press any key to continue..."
 }
 
 # Define the select_architecture function
@@ -92,7 +92,7 @@ select_architecture() {
 
 # Add hostname change option
 change_hostname() {
-  read -p "Enter the desired hostname (default: homeassistant.local): " new_hostname
+  read -p "Enter the desired hostname (default: homeassistant.local): " new_hostname < /dev/tty
   new_hostname=${new_hostname:-homeassistant.local}
   echo -e "${YELLOW}Changing hostname to ${new_hostname}...${NC}"
   hostnamectl set-hostname "$new_hostname"
