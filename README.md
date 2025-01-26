@@ -47,7 +47,7 @@ This script is designed to work on Debian-based systems. Ensure you have a clean
 
 ## 🛣️ Roadmap
 
-✅ [Q2/2025] Change the hostname to `homeassistant.local` \
+✅ [Q1/2025] Change the hostname to `homeassistant.local` \
 📅 [Q2/2025] Easily install using a shortened URL with `curl` \
 📅 [Q2/2025] Fetch variants of configuration boilerplate files for Home Assistant. \
 📅 [Q3/2025] Prune Unnecessary Docker Images & Logs with `crontab` \
