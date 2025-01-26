@@ -40,6 +40,13 @@ The `RACKSYNC HASS INSTALLER` script simplifies the installation of [Home Assist
 
 5. After the installation is complete, you will be prompted to reboot your system. It is recommended to reboot for all changes to take effect.
 
+## 🗑️ Uninstall
+
+To uninstall, run the following script:
+   ```bash
+   ./uninstall.sh
+   ```
+
 ## ⚠️ Note
 
 This script is designed to work on Debian-based systems. Ensure you have a clean installation of Debian before running the script.
