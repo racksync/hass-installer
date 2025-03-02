@@ -60,6 +60,7 @@ This script is designed to work on Debian-based systems. Ensure you have a clean
 📅 [Q3/2025] Prune Unnecessary Docker Images & Logs with `crontab` \
 📅 [Q3/2025] Theme & Custom Components Selection \
 📅 [Q4/2025] Pre-Installed Addons
+📅 [Q4/2025] Logs Prune Scheduler
 
 ## 📄 LICENSE
 
